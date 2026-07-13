@@ -142,7 +142,7 @@ np_xxx:password@eu-1.nodeproxies.xyz:8080
 
 This repository hosts **public release files only** for the Guns Views desktop updater:
 
-- `GunsViews-Setup-<version>.exe` - Windows installer
+- `GunsViews-Setup-x.y.z.exe` - Windows installer
 - `latest.yml` - Update manifest (version + SHA-512)
 
 Source code is maintained separately and is not published here.
