@@ -1,8 +1,23 @@
-# Guns Views
+<p align="center">
+  <img src="https://raw.githubusercontent.com/zFusions/guns-views-updates/main/github_assets/logo.png" alt="Guns Views" width="96" />
+</p>
 
-**Desktop control panel for guns.lol profile view campaigns.**
+<h1 align="center">Guns Views</h1>
 
-Free Windows app with a local backend, built-in proxy manager, campaign queue, and auto-updates. No Python or CLI setup required for end users.
+<p align="center">
+  <strong>Desktop control panel for guns.lol profile view campaigns</strong><br />
+  Free Windows app Â· local backend Â· proxy manager Â· campaign queue Â· auto-updates
+</p>
+
+<p align="center">
+  <a href="https://github.com/zFusions/guns-views-updates/releases/latest">Download latest</a>
+  Â·
+  <a href="#install-windows">Install guide</a>
+  Â·
+  <a href="#quick-start">Quick start</a>
+  Â·
+  <a href="#troubleshooting">Troubleshooting</a>
+</p>
 
 ---
 
@@ -10,17 +25,40 @@ Free Windows app with a local backend, built-in proxy manager, campaign queue, a
 
 | | |
 |---|---|
-| **Latest version** | **1.2.3** |
-| **Installer** | [GunsViews-Setup-1.2.3.exe](https://github.com/zFusions/guns-views-updates/releases/latest/download/GunsViews-Setup-1.2.3.exe) |
+| **Latest version** | **1.2.4** |
+| **Installer** | [GunsViews-Setup-1.2.4.exe](https://github.com/zFusions/guns-views-updates/releases/latest/download/GunsViews-Setup-1.2.4.exe) |
 | **All releases** | [github.com/zFusions/guns-views-updates/releases](https://github.com/zFusions/guns-views-updates/releases) |
 
 > The desktop app checks this repository for updates. Each release ships `GunsViews-Setup-x.y.z.exe` and `latest.yml`.
 
 ---
 
+## Recommended proxies
+
+<p align="center">
+  <a href="https://nodeproxies.xyz/register?ref=C8395E27">
+    <img src="https://nodeproxies.xyz/standard.gif" alt="NodeProxies â€” residential rotating proxies" width="720" />
+  </a>
+</p>
+
+> **NodeProxies** is the recommended proxy provider for Guns Views campaigns.
+>
+> Rotating residential gateways work out of the box with the built-in proxy manager and health checks.
+>
+> **Official referral link:** [nodeproxies.xyz/register?ref=C8395E27](https://nodeproxies.xyz/register?ref=C8395E27)
+
+| | NodeProxies |
+|---|---|
+| **Type** | Residential rotating proxies |
+| **Use case** | guns.lol view campaigns with proxy rotation |
+| **Format** | `np_xxx:password@eu-1.nodeproxies.xyz:8080` |
+| **Register** | [nodeproxies.xyz/register?ref=C8395E27](https://nodeproxies.xyz/register?ref=C8395E27) |
+
+---
+
 ## Install (Windows)
 
-1. Download **GunsViews-Setup-1.2.3.exe** from [Releases](https://github.com/zFusions/guns-views-updates/releases/latest).
+1. Download **GunsViews-Setup-1.2.4.exe** from [Releases](https://github.com/zFusions/guns-views-updates/releases/latest).
 2. Run the installer and accept the Terms of Use.
 3. Launch **Guns Views** from the Start Menu.
 4. On first launch, wait for the setup screen (Turnstile solver + Camoufox warm-up).
@@ -28,11 +66,15 @@ Free Windows app with a local backend, built-in proxy manager, campaign queue, a
 
 **Install location:** `%LOCALAPPDATA%\Programs\Guns Views`
 
+**User data (settings, proxies, presets):** `%LOCALAPPDATA%\Guns Views\Data`
+
+> Updates keep your settings and proxy list. User data is stored outside the install folder.
+
 ---
 
 ## Quick start
 
-1. **Proxies** â€” Add at least one working proxy (NodeProxies rotating gateway supported).
+1. **Proxies** â€” Add at least one working proxy ([NodeProxies](https://nodeproxies.xyz/register?ref=C8395E27) rotating gateway supported).
 2. **Target** â€” Enter `guns.lol/username` or just the username.
 3. **Views** â€” Set how many profile views to send.
 4. **Speed** â€” Start with **Best** for the safest pace.
@@ -55,9 +97,10 @@ np_xxx:password@eu-1.nodeproxies.xyz:8080
 
 ## Auto-update
 
-- Open Guns Views â†’ **Check for updates** in the footer, or wait a few seconds after launch.
+- Open Guns Views â†’ **Check for updates** in the sidebar, or wait a few seconds after launch.
 - When a new version is available, download and install from this repository automatically.
 - Updates install into the same folder as the running app.
+- **Your proxies, presets, and settings are preserved** in `%LOCALAPPDATA%\Guns Views\Data`.
 
 ---
 
@@ -78,12 +121,13 @@ np_xxx:password@eu-1.nodeproxies.xyz:8080
 |-------|-----|
 | Stuck on old version after install | Uninstall, delete `%LOCALAPPDATA%\Programs\Guns Views`, reinstall from latest release |
 | Wrong version shown in footer | Hover the version â€” check install path is `%LOCALAPPDATA%\Programs\Guns Views` |
+| Config lost after update | Upgrade to **1.2.4** or newer â€” data is stored in `%LOCALAPPDATA%\Guns Views\Data` |
 | Update fails | See `%TEMP%\guns-views-update.log` |
-| App â€œclosesâ€ when clicking X | It minimizes to the system tray â€” right-click tray icon â†’ **Quit** |
+| App "closes" when clicking X | It minimizes to the system tray â€” right-click tray icon â†’ **Quit** |
 
 ---
 
-## Whatâ€™s included
+## What's included
 
 - Local Go backend + embedded desktop UI
 - Free Turnstile solver (Zkamo + Camoufox) â€” no paid captcha API
@@ -105,6 +149,20 @@ Source code is maintained separately and is not published here.
 
 ---
 
+## Disclaimer
+
+> **âš ï¸ IMPORTANT â€” READ BEFORE USE**
+>
+> Guns Views is provided **free of charge** and **as-is**, without warranty of any kind.
+>
+> The author **strictly and absolutely disclaims all liability** for any direct or indirect damage, loss of account, suspension, ban, data loss, legal issue, or misuse arising from the use of this software.
+>
+> You are solely responsible for how you use Guns Views, which proxies you use, and compliance with guns.lol terms of service and applicable laws.
+>
+> This project is intended for **educational and personal use**. Proceed at your own risk.
+
+---
+
 ## Credits
 
 Open-source components used by Guns Views:
@@ -115,4 +173,6 @@ Open-source components used by Guns Views:
 
 ---
 
-**Guns Views** Â· Free desktop app Â· Updates via this repository
+<p align="center">
+  <strong>Guns Views</strong> Â· Free desktop app Â· Updates via this repository
+</p>
