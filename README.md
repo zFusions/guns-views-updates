@@ -6,16 +6,16 @@
 
 <p align="center">
   <strong>Desktop control panel for guns.lol profile view campaigns</strong><br />
-  Free Windows app Â· local backend Â· proxy manager Â· campaign queue Â· auto-updates
+  Free Windows app | local backend | proxy manager | campaign queue | auto-updates
 </p>
 
 <p align="center">
   <a href="https://github.com/zFusions/guns-views-updates/releases/latest">Download latest</a>
-  Â·
+  |
   <a href="#install-windows">Install guide</a>
-  Â·
+  |
   <a href="#quick-start">Quick start</a>
-  Â·
+  |
   <a href="#troubleshooting">Troubleshooting</a>
 </p>
 
@@ -37,7 +37,7 @@
 
 <p align="center">
   <a href="https://nodeproxies.xyz/register?ref=C8395E27">
-    <img src="https://nodeproxies.xyz/standard.gif" alt="NodeProxies â€” residential rotating proxies" width="720" />
+    <img src="https://nodeproxies.xyz/standard.gif" alt="NodeProxies - residential rotating proxies" width="720" />
   </a>
 </p>
 
@@ -74,11 +74,11 @@
 
 ## Quick start
 
-1. **Proxies** â€” Add at least one working proxy ([NodeProxies](https://nodeproxies.xyz/register?ref=C8395E27) rotating gateway supported).
-2. **Target** â€” Enter `guns.lol/username` or just the username.
-3. **Views** â€” Set how many profile views to send.
-4. **Speed** â€” Start with **Best** for the safest pace.
-5. **Launch** â€” Click **Launch campaign** or queue multiple profiles.
+1. **Proxies** - Add at least one working proxy ([NodeProxies](https://nodeproxies.xyz/register?ref=C8395E27) rotating gateway supported).
+2. **Target** - Enter `guns.lol/username` or just the username.
+3. **Views** - Set how many profile views to send.
+4. **Speed** - Start with **Best** for the safest pace.
+5. **Launch** - Click **Launch campaign** or queue multiple profiles.
 
 ---
 
@@ -97,7 +97,7 @@ np_xxx:password@eu-1.nodeproxies.xyz:8080
 
 ## Auto-update
 
-- Open Guns Views â†’ **Check for updates** in the sidebar, or wait a few seconds after launch.
+- Open Guns Views -> **Check for updates** in the sidebar, or wait a few seconds after launch.
 - When a new version is available, download and install from this repository automatically.
 - Updates install into the same folder as the running app.
 - **Your proxies, presets, and settings are preserved** in `%LOCALAPPDATA%\Guns Views\Data`.
@@ -120,17 +120,17 @@ np_xxx:password@eu-1.nodeproxies.xyz:8080
 | Issue | Fix |
 |-------|-----|
 | Stuck on old version after install | Uninstall, delete `%LOCALAPPDATA%\Programs\Guns Views`, reinstall from latest release |
-| Wrong version shown in footer | Hover the version â€” check install path is `%LOCALAPPDATA%\Programs\Guns Views` |
-| Config lost after update | Upgrade to **1.2.4** or newer â€” data is stored in `%LOCALAPPDATA%\Guns Views\Data` |
+| Wrong version shown in footer | Hover the version - check install path is `%LOCALAPPDATA%\Programs\Guns Views` |
+| Config lost after update | Upgrade to **1.2.4** or newer - data is stored in `%LOCALAPPDATA%\Guns Views\Data` |
 | Update fails | See `%TEMP%\guns-views-update.log` |
-| App "closes" when clicking X | It minimizes to the system tray â€” right-click tray icon â†’ **Quit** |
+| App "closes" when clicking X | It minimizes to the system tray - right-click tray icon -> **Quit** |
 
 ---
 
 ## What's included
 
 - Local Go backend + embedded desktop UI
-- Free Turnstile solver (Zkamo + Camoufox) â€” no paid captcha API
+- Free Turnstile solver (Zkamo + Camoufox) - no paid captcha API
 - Proxy health checks and campaign queue
 - English / French UI
 - Discord webhooks (optional)
@@ -142,8 +142,8 @@ np_xxx:password@eu-1.nodeproxies.xyz:8080
 
 This repository hosts **public release files only** for the Guns Views desktop updater:
 
-- `GunsViews-Setup-<version>.exe` â€” Windows installer
-- `latest.yml` â€” Update manifest (version + SHA-512)
+- `GunsViews-Setup-<version>.exe` - Windows installer
+- `latest.yml` - Update manifest (version + SHA-512)
 
 Source code is maintained separately and is not published here.
 
@@ -151,7 +151,7 @@ Source code is maintained separately and is not published here.
 
 ## Disclaimer
 
-> **âš ï¸ IMPORTANT â€” READ BEFORE USE**
+> **IMPORTANT - READ BEFORE USE**
 >
 > Guns Views is provided **free of charge** and **as-is**, without warranty of any kind.
 >
@@ -167,12 +167,12 @@ Source code is maintained separately and is not published here.
 
 Open-source components used by Guns Views:
 
-- [Zkamo/turnstile-solver](https://github.com/Zkamo/turnstile-solver) â€” local Turnstile solver
-- [CuteTenshii/guns-solver](https://github.com/CuteTenshii/guns-solver) â€” PoW / analytics format
-- [glockinhand/guns.lol-view-bot](https://github.com/glockinhand/guns.lol-view-bot) â€” transport tuning
+- [Zkamo/turnstile-solver](https://github.com/Zkamo/turnstile-solver) - local Turnstile solver
+- [CuteTenshii/guns-solver](https://github.com/CuteTenshii/guns-solver) - PoW / analytics format
+- [glockinhand/guns.lol-view-bot](https://github.com/glockinhand/guns.lol-view-bot) - transport tuning
 
 ---
 
 <p align="center">
-  <strong>Guns Views</strong> Â· Free desktop app Â· Updates via this repository
+  <strong>Guns Views</strong> | Free desktop app | Updates via this repository
 </p>
