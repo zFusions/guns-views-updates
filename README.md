@@ -25,8 +25,8 @@
 
 | | |
 |---|---|
-| **Latest version** | **1.2.4** |
-| **Installer** | [GunsViews-Setup-1.2.4.exe](https://github.com/zFusions/guns-views-updates/releases/latest/download/GunsViews-Setup-1.2.4.exe) |
+| **Latest version** | **1.2.5** |
+| **Installer** | [GunsViews-Setup-1.2.5.exe](https://github.com/zFusions/guns-views-updates/releases/latest/download/GunsViews-Setup-1.2.5.exe) |
 | **All releases** | [github.com/zFusions/guns-views-updates/releases](https://github.com/zFusions/guns-views-updates/releases) |
 
 > The desktop app checks this repository for updates. Each release ships `GunsViews-Setup-x.y.z.exe` and `latest.yml`.
@@ -58,7 +58,7 @@
 
 ## Install (Windows)
 
-1. Download **GunsViews-Setup-1.2.4.exe** from [Releases](https://github.com/zFusions/guns-views-updates/releases/latest).
+1. Download **GunsViews-Setup-1.2.5.exe** from [Releases](https://github.com/zFusions/guns-views-updates/releases/latest).
 2. Run the installer and accept the Terms of Use.
 3. Launch **Guns Views** from the Start Menu.
 4. On first launch, wait for the setup screen (Turnstile solver + Camoufox warm-up).
@@ -121,7 +121,7 @@ np_xxx:password@eu-1.nodeproxies.xyz:8080
 |-------|-----|
 | Stuck on old version after install | Uninstall, delete `%LOCALAPPDATA%\Programs\Guns Views`, reinstall from latest release |
 | Wrong version shown in footer | Hover the version - check install path is `%LOCALAPPDATA%\Programs\Guns Views` |
-| Config lost after update | Upgrade to **1.2.4** or newer - data is stored in `%LOCALAPPDATA%\Guns Views\Data` |
+| Config lost after update | Upgrade to **1.2.5** or newer - data is stored in `%LOCALAPPDATA%\Guns Views\Data` |
 | Update fails | See `%TEMP%\guns-views-update.log` |
 | App "closes" when clicking X | It minimizes to the system tray - right-click tray icon -> **Quit** |
 
